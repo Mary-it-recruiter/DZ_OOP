@@ -23,6 +23,11 @@ public class Market implements QueueBehaviour, MarketBehaviour {
         // Логика обновления состояния магазина
     }
 
+    @Override
+    public void completeOrder(Customer customer) {
+
+    }
+
     public static void main(String[] args) {
         Market market = new Market();
 
@@ -42,6 +47,22 @@ public class Market implements QueueBehaviour, MarketBehaviour {
         System.out.println("Длина очереди после обслуживания: " + market.getQueueLength());
 
         // Обновляем состояние магазина
+
         market.update();
+    }
+
+    @Override
+    public void addCustomerToQueue(Customer newCustomer) {
+
+    }
+
+    @Override
+    public Customer pullFirstFromQueue() {
+        return null;
+    }
+
+    @Override
+    public void queueToString() {
+
     }
 }

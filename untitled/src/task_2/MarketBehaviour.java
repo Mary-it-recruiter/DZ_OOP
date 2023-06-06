@@ -1,5 +1,15 @@
 package task_2;
 
-public interface MarketBehaviour {
 
+
+public interface MarketBehaviour {
+    void addCustomerToQueue(Customer newCustomer);
+
+    Customer pullFirstFromQueue();
+
+    void queueToString();
+
+    void update();
+
+    void completeOrder(Customer customer);
 }
