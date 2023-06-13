@@ -3,7 +3,11 @@ package task_2;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
 
+
+
+ */
 public class Market implements QueueBehaviour, MarketBehaviour {
     private Queue<Person> queue = new LinkedList<>();
 

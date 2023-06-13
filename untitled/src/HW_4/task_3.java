@@ -19,3 +19,5 @@ public class task_3 {
         System.out.println("Max of " + str1 + " and " + str2 + " is " + getMax(str1, str2));
     }
 }
+
+
