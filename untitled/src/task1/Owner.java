@@ -1,3 +1,4 @@
+package task1;
 public class Owner {
     private String name;
 
